@@ -1,111 +1,114 @@
-🏥 Hospital ER Analytics — Power BI Dashboard
+# 🏥 Hospital ER Analytics — Power BI Dashboard
 
-A complete Emergency Room (ER) Analytics Dashboard built using Power BI, focusing on patient flow, wait-time efficiency, admission rates, referral patterns, and satisfaction metrics.
-This project was developed as part of my internship, and I handled the work end-to-end — from cleaning the data to designing the visuals and developing DAX logic.
+A comprehensive **Emergency Room (ER) Analytics Dashboard** built using **Power BI**, focusing on patient flow, wait time efficiency, admission patterns, satisfaction insights, and referral behavior.  
+This project was developed as part of my internship, where I handled the dashboard **end-to-end** — data cleaning, modeling, DAX measures, visual design, and documentation.
 
-📸 Dashboard Preview (Screenshots)
-1. Monthly View
+---
 
-2. Consolidated Overview
+## 📸 Dashboard Preview (Screenshots)
 
-3. Patient Details & Demographics
+### **1. Monthly View**
+![Monthly View](./screenshots/01_monthly_view.png)
 
-4. Key Takeaways Summary
+### **2. Consolidated Overview**
+![Consolidated View](./screenshots/02_consolidated_view.png)
 
-📄 Full Dashboard (PDF)
+### **3. Patient Details & Demographics**
+![Patient Details](./screenshots/03_patient_details.png)
 
-View/download the complete 4-page dashboard:
+### **4. Key Takeaways Summary**
+![Key Takeaways](./screenshots/04_key_takeaways.png)
 
-👉 dashboard.pdf
+---
 
-📁 PBIX File (Interactive Dashboard)
+## 📄 Full Dashboard (PDF)
+View or download the complete 4-page dashboard:
 
-GitHub cannot preview PBIX files.
+👉 **[dashboard.pdf](./dashboard.pdf)**
 
-To open the interactive dashboard:
+---
 
-👉 dashboard.pbix
+## 📁 PBIX File (Interactive Dashboard)
+The PBIX file **cannot be previewed on GitHub**.
 
-(Open in Power BI Desktop)
+To explore the live interactive dashboard, download the PBIX:
 
-If GitHub download fails, add a Google Drive backup link here:
+👉 **[dashboard.pbix](./dashboard.pbix)**  
+(Open it in **Power BI Desktop**)
 
-🔗 Google Drive Link (optional)
+If GitHub download fails, use this Google Drive backup (optional):
 
-🧼 Data Cleaning & Transformation
+🔗 *Add Drive link here if you choose to upload*
 
-Full documentation of Power Query steps:
+---
 
-👉 Cleaning Steps
+## 🧼 Data Cleaning & Transformation  
+Detailed cleaning steps used in Power Query:
 
-Includes:
-
-Handling missing values
-
-Cleaning categorical fields
-
-Duplicate removal
-
-Date/Time feature extraction
-
-Outlier handling
-
-Creating Age Groups
-
-Dimension Table preparation
-
-🔢 DAX Measures Documentation
-
-All DAX logic used for KPIs and visuals:
-
-👉 DAX Measures
+👉 **[Cleaning Steps](./docs/cleaning_steps.md)**
 
 Includes:
+- Handling missing values  
+- Standardizing Gender, Race, Referral fields  
+- Extracting Date/Time features  
+- Removing duplicates  
+- Creating age groups  
+- Outlier treatment  
+- Building dimension tables  
 
-Total Patients
+---
 
-Avg Wait Time
+## 🔢 DAX Measures Documentation  
+All DAX calculations used in KPIs and visuals:
 
-% Served Within 30 Minutes
+👉 **[DAX Measures](./docs/dax_measures.md)**
 
-Admission Metrics
+Covers:
+- Total Patients  
+- Avg Wait Time  
+- % Seen within 30 minutes  
+- Admission Rate  
+- Referral Counts  
+- Gender/Race distribution  
+- Hourly/Day heatmap measures  
 
-Referral Counts
+---
 
-Gender & Race Distribution
+## 🧩 Data Model  
+Below is the relational data model used inside Power BI:
 
-Hourly/Day Heatmap Measures
+![Data Model](./docs/model_schema.png)
 
-🧩 Data Model (Star Schema)
+---
 
-🛠️ Tools & Technologies
-Tool	Purpose
-Power BI Desktop	Visuals, modeling, dashboard design
-Power Query	Cleaning & preprocessing
-DAX	Calculated KPIs
-GitHub	Project documentation
-Google Drive (optional)	PBIX/PDF hosting
-📊 Key Insights Highlighted
+## 🛠️ Tools & Technologies
 
-Traffic & wait-time peaks by hour/day
+| Tool | Usage |
+|------|-------|
+| **Power BI Desktop** | Dashboard building, visuals, data modeling |
+| **Power Query** | Data cleaning & preprocessing |
+| **DAX** | Calculated measures & KPIs |
+| **GitHub** | Project documentation & hosting |
+| **Google Drive (optional)** | PBIX hosting if needed |
 
-% of patients served within target time
+---
 
-Admission vs non-admission behavior
+## 📊 Key Insights From Dashboard
+- Patient wait times show peak congestion during specific hours.  
+- Referral patterns reveal departments with highest follow-ups.  
+- Admission rates correlate with severity and patient demographics.  
+- A clear performance metric shows % served within 30 minutes.  
+- Satisfaction scores help evaluate overall ER experience.
 
-Referral trends by department
+---
 
-Satisfaction score distribution
+## 📂 Project Structure
 
-Age, gender, and race breakdowns
-
-Monthly performance summary
-
-📂 Project Structure
+```
 hospital-er-analytics/
 ├─ README.md
 ├─ dashboard.pdf
-├─ dashboard.pbix        
+├─ dashboard.pbix        (optional)
 ├─ screenshots/
 │   ├─ 01_monthly_view.png
 │   ├─ 02_consolidated_view.png
@@ -115,4 +118,3 @@ hospital-er-analytics/
 │   ├─ dax_measures.md
 │   ├─ model_schema.png
 │   ├─ cleaning_steps.md
-
