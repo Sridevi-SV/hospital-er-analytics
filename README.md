@@ -108,7 +108,7 @@ Below is the relational data model used inside Power BI:
 hospital-er-analytics/
 ├─ README.md
 ├─ dashboard.pdf
-├─ dashboard.pbix        (optional)
+├─ dashboard.pbix        
 ├─ screenshots/
 │   ├─ 01_monthly_view.png
 │   ├─ 02_consolidated_view.png
