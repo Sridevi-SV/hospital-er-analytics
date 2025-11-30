@@ -8,16 +8,16 @@ This project was developed as part of my internship, where I handled the dashboa
 ## 📸 Dashboard Preview (Screenshots)
 
 ### **1. Monthly View**
-![Monthly View](./screenshots/01_monthly_view.png)
+![Monthly View](./screenshots/01_monthly_view.jpg)
 
 ### **2. Consolidated Overview**
-![Consolidated View](./screenshots/02_consolidated_view.png)
+![Consolidated View](./screenshots/02_consolidated_view.jpg)
 
 ### **3. Patient Details & Demographics**
-![Patient Details](./screenshots/03_patient_details.png)
+![Patient Details](./screenshots/03_patient_details.jpg)
 
 ### **4. Key Takeaways Summary**
-![Key Takeaways](./screenshots/04_key_takeaways.png)
+![Key Takeaways](./screenshots/04_key_takeaways.jpg)
 
 ---
 
